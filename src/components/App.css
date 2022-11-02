@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+/* ScrollBar apearence */
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(68, 68, 68, 0.384);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(68, 68, 68, 0.2);
+}
+
+.MuiButton-root {
+  font-family: 'Poppins', 'Roboto', 'Helvetica', 'Arial', sans-serif !important;
+  text-transform: none !important;
+}
+
+.App__Header {
+  position: absolute !important;
+  top: 0%;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 16px !important;
+  }
+}

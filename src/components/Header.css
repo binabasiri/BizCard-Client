@@ -1,0 +1,9 @@
+.Header__logo {
+	height: 3rem;
+}
+
+@media screen and (max-width: 480px) {
+	.Header__logo {
+		height: 2.5rem;
+	}
+}

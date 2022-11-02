@@ -1,0 +1,24 @@
+.LandingPage__mainText,
+.LandingPage__imageContainer {
+	height: calc(100vh);
+	padding-top: 70px;
+}
+
+@media screen and (max-width: 960px) {
+	.LandingPage__mainText {
+		height: Auto;
+		padding-top: 70px;
+	}
+
+	.LandingPage__imageContainer {
+		padding-top: 40px;
+	}
+}
+
+/* .LandingPage__mainText {
+	background-color: #a4aedf;
+}
+
+.LandingPage__imageContainer {
+	background-color: #fa87ad;
+} */
